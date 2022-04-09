@@ -1,0 +1,35 @@
+.body {
+  background-image: linear-gradient(to top, transparent 1%,rgba(253, 253, 253, 0), rgba(0,0,0,1)), url(../../public/images/teste-aladin.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  .content {
+    display: flex;
+
+    .musics {
+      background-color: #fff;
+      width: 70%;
+      height: 100vh;
+      border-top-right-radius: 22px;
+      border-bottom-right-radius: 22px;
+      .boxAlbuns {
+        width: 95%;
+        margin: 0 auto;
+        
+        h2{
+          color: var(--gray-600);
+          font-weight: 500;
+          font-size: 22px;
+        }
+      }
+    }
+
+    .listMusics{
+      width: 30%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(40px);
+
+    }
+  }
+}

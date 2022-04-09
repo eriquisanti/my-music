@@ -1,0 +1,16 @@
+.sessionLogin{
+    display: flex;
+    align-items: center;
+
+    .imgLogin{
+        width: 32px;
+        height: 32px;
+        border-radius: 200px;
+        margin-right: 5px;
+    }
+
+    p{
+        color: var(--gray-600);
+        font-size: 14px;
+    }
+}
